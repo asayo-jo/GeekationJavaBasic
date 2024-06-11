@@ -6,7 +6,6 @@ public class Variables {
 		// TODO 自動生成されたメソッド・スタブ
 		int num1 = 27;
 	    double num2 = 5.5;
-	    
 	    String messege = "私の好きな";
 	    String end = "です。";
 
