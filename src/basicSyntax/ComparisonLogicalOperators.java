@@ -7,28 +7,28 @@ public class ComparisonLogicalOperators {
 		//1.
 		int a = 20;
 		int b = 10;
-		boolean result = (a > b);
+		boolean resultA = (a > b);
 		
-		System.out.println(result);
+		System.out.println(resultA);
 		
 		//2.
 		boolean isSunny = true;
 		boolean isWarm = true;
-		boolean resultA = (isSunny && isWarm);
+		boolean resultB = (isSunny && isWarm);
 		
-		System.out.println(resultA);
+		System.out.println(resultB);
 		
 		//3.
 		int x = 10;
 		int y = 2;
-		boolean resultB = (x >= 0 && y % 2 == 0 );
+		boolean resultC = (x >= 0 && y % 2 == 0 );
 		
-		System.out.println(resultB);
+		System.out.println(resultC);
 		
 		//4.
 		boolean hasPermission = false;
-		boolean resultC = !hasPermission;
+		boolean resultD = !hasPermission;
 		
-		System.out.println(resultC);
+		System.out.println(resultD);
 	}
 }
