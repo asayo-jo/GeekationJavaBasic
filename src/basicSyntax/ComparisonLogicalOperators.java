@@ -30,5 +30,6 @@ public class ComparisonLogicalOperators {
 		boolean resultD = !hasPermission;
 		
 		System.out.println(resultD);
+		
 	}
 }
