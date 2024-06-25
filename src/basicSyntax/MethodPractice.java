@@ -1,20 +1,21 @@
 package basicSyntax;
 
 public class MethodPractice {
+	
 	public static void main(String[] args) {
-		// TODO 自動生成されたメソッド・スタブ
+	// TODO 自動生成されたメソッド・スタブ
 		int a = 10;
-        int b = 5;
-        
-        int result1 = add(a, b);
-        int result2 = sub(a, b);
-        int result3 = mul(a, b);
-        int result4 = div(a, b);
-        
-        printResult(result1);
-        printResult(result2);
-        printResult(result3);
-        printResult(result4);
+		int b = 5;
+		
+		int result1 = add(a, b);
+		int result2 = sub(a, b);
+		int result3 = mul(a, b);
+		int result4 = div(a, b);
+		
+		printResult(result1);
+		printResult(result2);
+		printResult(result3);
+		printResult(result4);
     }
 	
     // メソッド1: 二つの値を足し算するメソッド
@@ -43,7 +44,7 @@ public class MethodPractice {
     
     // メソッド5: 結果をコンソールに出力するメソッド
     public static void printResult(int result) {
-        System.out.println("計算結果は" + result + "です。");
+    	System.out.println("計算結果は" + result + "です。");
     }
 
 }
