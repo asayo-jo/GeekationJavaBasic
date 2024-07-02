@@ -11,29 +11,29 @@ public class GeekIntroduction {
 	
 	//メソッド２
 	public static void specialSkill(int num1, int num2) {
-		if(num1 <= 0 || num2 <= 0) {
+		if (num1 <= 0 || num2 <= 0) {
 			System.out.println("num1とnum2は0より大きい値にしてください。");
 			return;
 		}
-		if(num1 >= num2) {
+		if (num1 >= num2) {
 			System.out.println("num2はnum1より大きい値にしてください。");
 			return;
 		}
-		if(num1 > 300 || num2 > 300) {
+		if (num1 > 300 || num2 > 300) {
 			System.out.println("num1とnum2は300以下にしてください。");
 			return;
 		}
 		
-		for(int num = num1; num <= num2; num++ ) {
-			if(num % 3 == 0 && num % 5 == 0) {
+		for (int num = num1; num <= num2; num++ ) {
+			if (num % 3 == 0 && num % 5 == 0) {
 				System.out.println(num + "は3の倍数かつ5の倍数です。");
 				continue;
 			}
-			if(num % 3 == 0) {
+			if (num % 3 == 0) {
 				System.out.println(num + "は3の倍数です。");
 				continue;
 			}
-			if(num % 5 == 0) {
+			if (num % 5 == 0) {
 				System.out.println(num +"は5の倍数です。");
 				continue;
 			}
