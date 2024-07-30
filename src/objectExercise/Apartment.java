@@ -6,11 +6,11 @@ package objectExercise;
 		// ゲッターとセッター
 		public String getLayout() {
 			return this.layout;
-	    }
+		}
 	    
 		public void setLayout(String layout) {
 	    	this.layout = layout;
-	    }
+		}
 	
 		public void printDetails() {
 			System.out.println("=============================");

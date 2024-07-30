@@ -4,7 +4,7 @@ package objectExercise;
 		private String name;
 		private String ownerName;
 		private String type;
-	    private int price;
+		private int price;
 	
 		// ゲッターとセッター
 		public String getName() {
