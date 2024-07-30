@@ -5,7 +5,7 @@ package objectExercise;
 		private String ownerName;
 		private String type;
 		private int price;
-	
+		
 		// ゲッターとセッター
 		public String getName() {
 			return this.name;
@@ -15,7 +15,7 @@ package objectExercise;
 			this.name = name;
 		}
 	
-	    public String getOwnerName() {
+		public String getOwnerName() {
 	    	return this.ownerName;
 		}
 	    
